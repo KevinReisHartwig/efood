@@ -1,4 +1,4 @@
-import { styled } from 'styled-components'
+import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 export const StyledCardButton = styled(Link)`
@@ -10,12 +10,16 @@ export const StyledCardButton = styled(Link)`
   text-align: center;
   font-size: 14px;
   font-weight: 700;
+  text-decoration: none;
 `
 
 export const StyledMenuItemButton = styled.button`
   background-color: #ffebd9;
-  width: 100%;
   height: 24px;
+  border: none;
+  width: calc(100% - 5px);
+  margin: 0 2px;
+  padding: 12px;
 
   font-size: 14px;
   font-weight: 700;

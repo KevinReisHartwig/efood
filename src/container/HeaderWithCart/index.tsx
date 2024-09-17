@@ -9,7 +9,7 @@ const HeaderWithCart = () => (
       <Link to={'/'}>
         <img src={efoodLogo} alt="Logo do efood" />
       </Link>
-      <span>0 produtos no carrinho</span>
+      <span>0 produto(s) no carrinho</span>
     </div>
   </StyledHeaderWithCart>
 )
