@@ -11,6 +11,7 @@ export const StyledCardButton = styled(Link)`
   font-size: 14px;
   font-weight: 700;
   text-decoration: none;
+  cursor: pointer;
 `
 
 export const StyledMenuItemButton = styled.button`
@@ -20,6 +21,7 @@ export const StyledMenuItemButton = styled.button`
   width: calc(100% - 5px);
   margin: 0 2px;
   padding: 12px;
+  cursor: pointer;
 
   font-size: 14px;
   font-weight: 700;
