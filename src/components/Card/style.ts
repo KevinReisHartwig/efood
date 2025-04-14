@@ -1,10 +1,22 @@
 import styled from 'styled-components'
+import { estilo, Breakpoints } from '../../styles/variaveis'
 
 const StyledCard = styled.div`
   min-height: 400px;
   width: 472px;
-  border: 1px solid #e66767;
+  border: 1px solid ${estilo.corDaFonte};
   position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (max-width: ${Breakpoints.desktop}) {
+    width: 100%;
+  }
+
+  @media (max-width: ${Breakpoints.tablet}) {
+    width: 95%;
+  }
 
   #card_container {
     position: absolute;

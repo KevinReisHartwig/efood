@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import { estilo } from '../../styles/variaveis'
 
 const StyledCartCard = styled.li`
-  background-color: #ffebd9;
+  background-color: ${estilo.corDaFonte2};
   list-style: none;
   padding: 8px;
   width: 100%;
@@ -18,7 +19,7 @@ const StyledCartCard = styled.li`
   }
 
   > h3 {
-    color: #e66767;
+    color: ${estilo.corDaFonte};
     text-align: left;
     font-family: Roboto;
     font-size: 18px;
@@ -29,7 +30,7 @@ const StyledCartCard = styled.li`
   }
 
   span {
-    color: #e66767;
+    color: ${estilo.corDaFonte};
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -39,12 +40,12 @@ const StyledCartCard = styled.li`
 
   button {
     position: absolute;
+
     width: 16px;
     bottom: 8px;
     right: 8px;
     img {
       width: 100%;
-      cursor: pointer;
     }
   }
 `

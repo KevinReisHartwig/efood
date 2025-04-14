@@ -12,6 +12,7 @@ export const StyledCardButton = styled(Link)`
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
+  margin-top: auto;
 `
 
 export const StyledMenuItemButton = styled.button`

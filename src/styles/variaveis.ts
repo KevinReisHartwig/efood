@@ -4,3 +4,8 @@ export const estilo = {
   corDoFundo: '#FFFFFF',
   corDaEstrela: '#FFB930'
 }
+
+export const Breakpoints = {
+  tablet: '768px',
+  desktop: '1024px'
+}

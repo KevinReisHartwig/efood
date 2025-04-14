@@ -1,11 +1,15 @@
 import styled from 'styled-components'
+import { estilo } from '../../styles/variaveis'
 
 const StyledMenuItem = styled.div`
   height: 340px;
   width: 320px;
-  padding: 8px;
-  background-color: #e66767;
+  padding: 10px;
+  background-color: ${estilo.corDaFonte};
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   > img {
     width: 100%;
@@ -14,8 +18,9 @@ const StyledMenuItem = styled.div`
   }
   h3,
   p {
-    color: #ffebd9;
+    color: ${estilo.corDaFonte2};
     margin: 8px 0;
+    margin-top: auto;
   }
 
   h3 {

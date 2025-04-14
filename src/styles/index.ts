@@ -8,6 +8,9 @@ const EstiloGlobal = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     color: ${estilo.corDaFonte};
+    outline: none;
+    border: none;
+    box-shadow: none;
   }
 
   .container {
